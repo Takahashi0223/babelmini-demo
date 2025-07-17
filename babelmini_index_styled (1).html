@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>BABELmini ホーム</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #eef4f9;
+      margin: 0;
+      padding: 40px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.5em;
+      color: #2c3e50;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1.2em;
+      color: #555;
+      margin-bottom: 40px;
+    }
+    .button-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+    .menu-button {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      background-color: #4CAF50;
+      color: white;
+      padding: 15px 25px;
+      font-size: 1em;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      width: 280px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+    .menu-button:hover {
+      background-color: #45a049;
+    }
+    .menu-button span {
+      margin-left: 12px;
+    }
+    .icon {
+      font-size: 1.2em;
+    }
+  </style>
+</head>
+<body>
+  <h1>BABELminiへようこそ</h1>
+  <p>これは小規模図書館向けの貸出管理システムのデモです</p>
+  <div class="button-container">
+    <a href="books.html" class="menu-button"><span class="icon">📚</span><span>図書一覧を見る</span></a>
+    <a href="loan.html" class="menu-button"><span class="icon">🔄</span><span>貸出・返却</span></a>
+    <a href="register.html" class="menu-button"><span class="icon">➕</span><span>新しい図書を登録</span></a>
+    <a href="settings.html" class="menu-button"><span class="icon">⚙️</span><span>設定</span></a>
+  </div>
+</body>
+</html>
