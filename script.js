@@ -1,1 +1,0 @@
-console.log("BABELmini demo script loaded.");
